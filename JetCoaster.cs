@@ -17,25 +17,28 @@ namespace WindowsFormsApp1
 
             for (int c =0; c < r; c++)
             {
-                int a = 0;
+                
                 int b = 0;
                 int s = 0;
                
                 for (int d =0 ; k > b;d++ )
                 {
-                    a = g[i];
-                    b += a;
+                     
+                    b += g[i];
 
-                    if (d == g.Length)
-                    {
-                        b = 8;
-                    }
+                   
 
                     if(k < b)
                     {
                         continue;
                     }
+                   
                     s = b;
+
+                    if (g.Length == 1)
+                    {
+                        break;
+                    }
 
                     i += 1;
                    
