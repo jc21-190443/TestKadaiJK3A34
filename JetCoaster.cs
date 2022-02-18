@@ -20,11 +20,23 @@ namespace WindowsFormsApp1
                 
                 int b = 0;
                 int s = 0;
-               
+                if (g.Length == 0)
+                {
+                    break;
+                }
+
                 for (int d =0 ; k > b;d++ )
                 {
                      
                     b += g[i];
+
+                    if (d == g.Length )
+                    {
+                        break;
+
+                    }
+
+                   
 
                    
 
